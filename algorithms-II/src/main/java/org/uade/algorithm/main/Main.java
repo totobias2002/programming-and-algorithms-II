@@ -1,7 +1,6 @@
 package org.uade.algorithm.main;
-import java.awt.*;
-import java.util.Scanner;
 
+import org.uade.algorithm.menu.Menu;
 
 public class Main {
     public static void main(String[] args) {
