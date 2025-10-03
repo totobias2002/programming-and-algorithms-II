@@ -58,14 +58,14 @@ src/
       └── java
           └── org
               └── uade
-                  ├── algorithm
-                  ├── exception
-                  ├── structure
-                  │   ├── definition
+                  ├── org.uade.algorithm
+                  ├── org.uade.exception
+                  ├── org.uade.org.uade.structure
+                  │   ├── org.uade.org.uade.structure.org.uade.structure.definition
                   │   └── implementation
-                  │       ├── dynamic
+                  │       ├── org.uade.structure.implementation.common.dynamic
                   │       │   └── extras
-                  │       └── fixed
+                  │       └── org.uade.structure.implementation.fixed
                   └── util
 ````
 
@@ -73,13 +73,13 @@ Como se puede ver en la estructura existen una serie de paquetes donde cada uno 
 
 | **Paquete**                  | **Descripción**                                                             |
 |------------------------------|-----------------------------------------------------------------------------|
-| `algorithm`                  | Contiene la implementación de algoritmos que utilizan los TDA.              |
-| `exception`                  | Define las excepciones personalizadas usadas en el proyecto.                |
-| `structure`                  | Paquete general que agrupa las estructuras de datos.                        |
-| `structure.definition`       | Contiene las interfaces o definiciones de los TDA.                          |
-| `structure.implementation`   | Implementaciones concretas de los TDA.                                      |
-| `structure.implementation.dynamic` | Implementaciones de estructuras de datos dinámicas (ej.: listas enlazadas). |
-| `structure.implementation.dynamic.extras` | Componentes auxiliares o complementarios para las estructuras dinámicas.    |
-| `structure.implementation.fixed`   | Implementaciones de estructuras de datos de tamaño fijo (ej.: arrays).      |
+| `org.uade.algorithm`                  | Contiene la implementación de algoritmos que utilizan los TDA.              |
+| `org.uade.exception`                  | Define las excepciones personalizadas usadas en el proyecto.                |
+| `org.uade.org.uade.structure`                  | Paquete general que agrupa las estructuras de datos.                        |
+| `org.uade.org.uade.structure.org.uade.org.uade.structure.org.uade.structure.definition`       | Contiene las interfaces o definiciones de los TDA.                          |
+| `org.uade.org.uade.structure.implementation`   | Implementaciones concretas de los TDA.                                      |
+| `org.uade.org.uade.structure.implementation.org.uade.structure.implementation.common.dynamic` | Implementaciones de estructuras de datos dinámicas (ej.: listas enlazadas). |
+| `org.uade.org.uade.structure.implementation.org.uade.structure.implementation.common.dynamic.extras` | Componentes auxiliares o complementarios para las estructuras dinámicas.    |
+| `org.uade.org.uade.structure.implementation.org.uade.structure.implementation.fixed`   | Implementaciones de estructuras de datos de tamaño fijo (ej.: arrays).      |
 | `util`                       | Clases utilitarias y funciones auxiliares usadas en todo el proyecto.       |
 
